@@ -1,12 +1,18 @@
+import ScrollAnimations from "./components/scrollAnimations";
+
 function App() {
   return (
-    <>
-      <div className="flex justify-center items-center h-screen">
-        <h1 className="text-xl font-bold">
-          React vite + tailwindcss + typescript Template
-        </h1>
-      </div>
-    </>
+    // <>
+    //   <div className="flex items-center justify-center h-screen bg-slate-300">
+    //     {/* <Framer /> */}
+    //     {/* <Gestures /> */}
+    //     {/* <AnimationControls /> */}
+    //   </div>
+    // </>
+    <div className="bg-slate-300">
+      {/* <ViewBasedAnimations /> */}
+      <ScrollAnimations />
+    </div>
   );
 }
 
