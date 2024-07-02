@@ -1,4 +1,4 @@
-import ScrollAnimations from "./components/scrollAnimations";
+import ScrollReveal from "./components/scrollReveal";
 
 function App() {
   return (
@@ -9,10 +9,19 @@ function App() {
     //     {/* <AnimationControls /> */}
     //   </div>
     // </>
-    <div className="bg-slate-300">
-      {/* <ViewBasedAnimations /> */}
-      <ScrollAnimations />
-    </div>
+
+    // <div className="bg-slate-300">
+    //   {/* <ViewBasedAnimations /> */}
+    //   {/* <ScrollAnimations /> */}
+    // </div>
+
+    <>
+      <ScrollReveal />
+    </>
+
+    // <>
+    //   <Framer2 />
+    // </>
   );
 }
 
